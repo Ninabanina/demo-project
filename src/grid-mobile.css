@@ -1,0 +1,44 @@
+@media (max-width: 50em) {
+  .featured-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "featured-image-top" 
+    "featured-image-bottom-left"
+    "featured-image-bottom-right";
+    grid-area: featured-image;
+  }  
+  .cta {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". cta-title ." 
+    ". cta-content ." 
+    ". cta-image .";
+    grid-area: cta;
+  }
+  
+  .bottom-featured {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "bottom-featured-image-top" 
+    "bottom-featured-caption-top" 
+    "bottom-featured-image-left" 
+    "bottom-featured-caption-left" 
+    "bottom-featured-image-right" 
+    "bottom-featured-caption-right";
+    grid-area: bottom-featured;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "project1" "project2" "project3" "project4";
+    grid-area: projects;
+  }
+}

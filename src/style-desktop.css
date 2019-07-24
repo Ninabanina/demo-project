@@ -1,0 +1,160 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,800,900|Italianno&display=swap');
+html {
+  font-family: "Heebo", sans-serif;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 5em;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+h2 {
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 3em;
+  margin: 0;
+}
+
+h3 {
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 2em;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0;
+  color: grey;
+}
+
+i {
+  font-family: 'Italianno', cursive;
+  text-transform: lowercase;
+}
+
+/* Container */
+body {
+  margin:0;
+}
+
+.background-dark {
+  background-color: black;
+}
+
+.background-light {
+  background-color: white;
+}
+
+.text-dark {
+  color: black;
+}
+
+.text-grey {
+  color: grey;
+}
+
+/* Button */
+.button {
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+  padding: 0.5em 1.8em;
+}
+
+/* Spacing */
+.top-small {
+  margin-top: 1em;
+}
+
+.top-medium {
+  margin-top: 3em;
+}
+
+.top-large {
+  margin-top: 6em;
+}
+
+.bottom-small {
+  margin-bottom: 1em;
+}
+
+.bottom-medium {
+  margin-bottom: 3em;
+}
+
+.bottom-large {
+  margin-bottom: 6em;
+}
+
+.right-small {
+  margin-right: 1em;
+}
+
+.inner-top-small {
+  padding-top: 0.5em;
+}
+
+.inner-top-large {
+  padding-top: 5em;
+}
+
+/* Position */
+.center-h {
+  justify-self: center;
+}
+
+.center-v {
+  align-self: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.up {
+  align-self: start;
+}
+
+.down {
+  align-self: end;
+}
+
+.left {
+  justify-self: start;
+}
+
+.right {
+  justify-self: end;
+}
+
+/* decoration */
+.border-top {
+  border-top: 1px solid whitesmoke;
+}
+
+.border-top-grey {
+  border-top: 1px solid grey;
+}
+
+/* footer */
+.footer {
+  color: grey;
+  padding-top: 1em;
+}

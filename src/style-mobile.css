@@ -1,0 +1,77 @@
+@media (max-width: 50em) {
+  /* Font */
+  h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 0.08em;
+    margin: 0;
+  }
+  
+  h2 {
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  h3 {
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  h4 {
+    font-weight: 600;
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  i {
+    font-family: 'Italianno', cursive;
+    text-transform: lowercase;
+  }
+
+  /* Spacing */
+  .top-medium {
+    margin-top: 1.5em;
+  }
+
+  .top-large {
+    margin-top: 2em;
+  }
+
+  .bottom-medium {
+    margin-bottom: 1.5em;
+  }
+
+  .bottom-large {
+    margin-bottom: 2em;
+  }
+
+  /* featured-image */
+  .featured-image-bottom-left {
+    display: none;
+  }
+
+  .featured-image-bottom-right {
+    display: none;
+  }
+
+  /* cta */
+  .cta {
+    padding-top: 0;
+  }
+
+  .cta-image {
+    width: 100%;
+    height: auto;
+    margin-top: -5em;
+  } 
+}
